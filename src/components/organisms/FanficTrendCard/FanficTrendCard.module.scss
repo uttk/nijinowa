@@ -1,0 +1,76 @@
+.article {
+  width: 100%;
+  margin: 16px;
+  min-width: 300px;
+}
+
+.trend_card {
+  width: 100%;
+  text-decoration: none;
+  color: black;
+}
+
+.thumbnail {
+  display: flex;
+  max-height: 500px;
+  overflow-y: hidden;
+
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.card_body {
+  width: 100%;
+  display: inline-block;
+  background: white;
+  padding-bottom: 120px;
+  position: relative;
+}
+
+.title {
+  font-size: calc(1vw + 1.2em);
+  font-weight: 500;
+  margin: 12px 8px;
+}
+
+.card_status {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+}
+
+.status_icon_wrapper {
+  display: flex;
+}
+
+.icon_label {
+  margin: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.author_field {
+  display: flex;
+  padding: 0 8px;
+  position: absolute;
+  background: white;
+  margin-top: -124px;
+  margin-bottom: 16px;
+}
+
+.author_icon {
+  margin-right: 16px;
+}
+
+.non_link_text {
+  text-decoration: none;
+  color: black;
+}
+
+.author_name {
+  margin: 3px 0 0 0;
+  font-size: calc(1vw + 0.9em);
+  font-weight: 500;
+}

@@ -1,0 +1,21 @@
+.dashboard {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  max-width: 1200px;
+  min-width: 500px;
+}
+
+.contents {
+  flex-grow: 3;
+  display: flex;
+  justify-content: center;
+}
+
+.side_menu {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-left: 32px;
+}

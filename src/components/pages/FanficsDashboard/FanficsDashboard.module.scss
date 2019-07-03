@@ -1,0 +1,35 @@
+.fanfic_dashboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form_header {
+  text-align: center;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.create_button {
+  position: fixed;
+  right: 32px;
+  bottom: 32px;
+}
+
+.fanfic_list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 32px;
+}
+
+.card_wrappper {
+  position: relative;
+}
+
+.popup {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  transform: translateX(100%);
+  z-index: 99;
+}

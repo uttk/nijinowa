@@ -1,0 +1,46 @@
+.user_profile_edit {
+  width: 100%;
+  display: flex;
+}
+
+.form_body {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  flex-grow: 2;
+}
+
+.icon_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 200px;
+  margin-right: 32px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.button_wrapper {
+  margin: 16px 0;
+  text-align: center;
+}
+
+.unsubscribe {
+  width: 300px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  background: transparent;
+  padding: 16px;
+  transition: all 300ms;
+  outline: none;
+
+  &:hover {
+    background: blue;
+    color: white;
+    border-radius: 10px;
+  }
+}

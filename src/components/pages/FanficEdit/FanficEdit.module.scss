@@ -1,0 +1,47 @@
+.fanfic_edit {
+  min-width: 500px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.fanfic_contents {
+  margin: 16px;
+  min-height: 800px;
+}
+
+.body {
+  border-bottom: 1px solid #d0d0d0;
+  padding-bottom: 32px;
+  margin: auto;
+}
+
+.btn_wrapper {
+  margin: 16px 0;
+}
+
+.header {
+  display: flex;
+  align-content: center;
+}
+
+.date {
+  font-size: 12px;
+  color: #707070;
+}
+
+.title {
+  width: 100%;
+  margin-left: 16px;
+}
+
+.description {
+  margin-top: 16px;
+  margin-left: 32px;
+}
+
+.fix_button {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  z-index: 1000;
+}

@@ -1,0 +1,26 @@
+.loading_bar {
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(
+    90deg,
+    #eeeeee,
+    #eeeeee,
+    #bfffab,
+    #6aff3d,
+    #bfffab,
+    #eeeeee,
+    #eeeeee
+  );
+  background-size: 600%;
+  animation: loading-gradation 2s linear infinite;
+}
+
+@keyframes loading-gradation {
+  0% {
+    background-position: 100%;
+  }
+
+  100% {
+    background-position: 0%;
+  }
+}

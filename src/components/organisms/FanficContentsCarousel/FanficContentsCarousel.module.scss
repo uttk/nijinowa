@@ -1,0 +1,40 @@
+.fanfic_carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carolsel_body {
+  width: 1000px;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel_left_button {
+  background-image: url("../../../assets/icons/arrow.png");
+  width: 32px;
+  height: 32px;
+  background-size: contain;
+  margin: 0 16px;
+  background-repeat: no-repeat;
+  min-width: 32px;
+}
+
+.carousel_right_button {
+  background-image: url("../../../assets/icons/arrow.png");
+  width: 32px;
+  height: 32px;
+  background-size: contain;
+  margin: 0 16px;
+  transform: rotateY(180deg);
+  background-repeat: no-repeat;
+  min-width: 32px;
+}
+
+.carousel_margin {
+  display: flex;
+  width: 10%;
+  min-width: 100px;
+}

@@ -1,0 +1,25 @@
+.user_profile {
+  min-width: 500px;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.profile_body {
+  width: 100%;
+}
+
+.user_status {
+  margin: 0 32px;
+  width: 200px;
+}
+
+.status_wrapper {
+  margin-left: 16px;
+}
+
+.list_body {
+  margin: 16px;
+}

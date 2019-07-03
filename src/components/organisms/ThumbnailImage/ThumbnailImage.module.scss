@@ -1,0 +1,48 @@
+.thumbnail_img {
+  opacity: 1;
+  transition: opacity 300ms;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.no_image_wrapper {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: #eee;
+  transition: opacity 300ms;
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  &::before {
+    content: "";
+    display: block;
+    padding-top: calc(50% + 50px);
+  }
+}
+
+.no_image {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 10px 0;
+  margin: 0px;
+  color: white;
+  font-family: fantasy;
+  background: #dedede;
+  text-align: center;
+  position: absolute;
+
+  p {
+    font-size: 5vmin;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    position: relative;
+  }
+}

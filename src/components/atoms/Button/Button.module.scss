@@ -1,0 +1,88 @@
+.btn_base {
+  border-radius: 32px;
+  outline: none;
+  border: none;
+  transition: all 300ms;
+
+  &:disabled {
+    background: #c0c0c0;
+
+    &:hover {
+      background: #c0c0c0;
+    }
+  }
+}
+
+.small {
+  font-size: 12px;
+  padding: 0 15px;
+  height: 32px;
+}
+
+.medium {
+  padding: 0 20px;
+  height: 48px;
+}
+
+.large {
+  font-size: 24px;
+  padding: 0 25px;
+  height: 64px;
+}
+
+.blue {
+  background: rgb(39, 114, 255);
+  color: white;
+
+  &:hover {
+    background: rgb(94, 150, 255);
+  }
+}
+
+.red {
+  background: rgb(247, 53, 53);
+  color: white;
+
+  &:hover {
+    background: rgb(253, 103, 103);
+  }
+}
+
+.yellow {
+  background: rgb(255, 195, 31);
+  color: white;
+
+  &:hover {
+    background: rgb(250, 214, 114);
+  }
+}
+
+.white {
+  background: white;
+  color: black;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.transparent {
+  background: transparent;
+
+  &:hover {
+    background: rgba(226, 226, 226, 0.5);
+  }
+}
+
+.icon_btn {
+  display: flex;
+  cursor: pointer;
+  position: relative;
+  align-items: center;
+  border-radius: 50px;
+  justify-content: center;
+}
+
+.icon {
+  object-fit: contain;
+}

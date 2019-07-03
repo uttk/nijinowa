@@ -1,0 +1,18 @@
+.page {
+  width: 100%;
+  background-color: #f4f4f4;
+  position: absolute;
+}
+
+.body {
+  margin: 32px;
+  margin-top: 100px;
+  min-height: 750px;
+}
+
+.footer {
+  width: 100%;
+  min-width: 500px;
+  text-align: center;
+  border-top: 1px solid rgba(192, 192, 192, 0.5);
+}

@@ -1,0 +1,23 @@
+.tab {
+  border: none;
+  background: white;
+  color: black;
+  flex-grow: 1;
+  outline: none;
+}
+
+.tab_wrapper {
+  background: white;
+  color: black;
+  min-width: 100px;
+  align-items: center;
+  padding: 16px;
+}
+
+.selected {
+  border-bottom: 3px solid #1b95e0;
+}
+
+.tab_bar {
+  display: flex;
+}

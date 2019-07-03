@@ -1,0 +1,41 @@
+.list_item {
+  display: flex;
+  align-items: center;
+  padding: 10px 16px;
+  border-bottom: 0.2px solid rgba(0, 0, 0, 0.7);
+  font-size: 17px;
+  transition: background 300ms;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #f0f0f0;
+  }
+
+  &:last-child {
+    border: none;
+  }
+}
+
+.item_label {
+  margin-left: 16px;
+}
+
+.read {
+  background-color: #f6f6f6;
+}
+
+.from_user {
+  margin-right: 8px;
+}
+
+.date {
+  font-size: 13px;
+  color: #6d6d6d;
+}
+
+.no_link_style {
+  color: black;
+  text-decoration: none;
+}

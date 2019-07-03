@@ -1,0 +1,39 @@
+.alert {
+  display: flex;
+  position: fixed;
+  border-radius: 3px;
+  padding: 0 15px;
+  min-width: 150px;
+  max-width: 600px;
+  right: 10px;
+  margin: 8px;
+  box-shadow: 0px 0px 10px -1px rgba(0, 0, 0, 0.5);
+  transform: translateX(150%);
+  transition: all 300ms;
+  z-index: 99999;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.alert_show {
+  transform: translateX(0%);
+}
+
+.success {
+  background: rgb(78, 172, 78);
+  color: white;
+}
+
+.warn {
+  background: rgb(255, 196, 0);
+  color: white;
+}
+
+.error {
+  background: rgb(245, 54, 54);
+  color: white;
+}
+
+.close_btn {
+  margin-left: 8px;
+}

@@ -1,0 +1,16 @@
+.field_label {
+  text-align: center;
+  font-size: 15px;
+  color: rgb(154, 154, 154);
+}
+
+.editable_field {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.add_button {
+  display: flex;
+  align-items: center;
+  margin-left: 32px;
+}

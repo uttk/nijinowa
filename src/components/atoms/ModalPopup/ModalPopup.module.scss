@@ -1,0 +1,29 @@
+.popup {
+  display: none;
+  position: fixed;
+  background: white;
+  box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 16px;
+  z-index: 9999;
+
+  top: 10%;
+  left: 0;
+  right: 0;
+  margin: auto;
+
+  &_show {
+    @extend .popup;
+    display: block;
+  }
+}
+
+.background {
+  background: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  position: fixed;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9990;
+}

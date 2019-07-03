@@ -1,0 +1,28 @@
+.trends {
+}
+
+.trends_body {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+}
+
+.loading {
+  margin: auto;
+  animation: loading-rotate 3s linear infinite;
+}
+
+.loading_wrapper {
+  width: 100%;
+  text-align: center;
+}
+
+@keyframes loading-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

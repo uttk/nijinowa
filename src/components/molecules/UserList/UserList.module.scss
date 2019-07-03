@@ -1,0 +1,34 @@
+.list_body {
+  margin: 16px;
+
+  .list_label {
+    text-align: center;
+  }
+}
+
+.list_item {
+  display: flex;
+  padding: 16px;
+  background: #fefefe;
+  margin: 16px 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 16px;
+}
+
+.user_name {
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.bio {
+  word-break: break-all;
+}
+
+.button {
+  width: 150px;
+}

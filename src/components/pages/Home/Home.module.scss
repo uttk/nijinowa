@@ -1,0 +1,59 @@
+.page {
+  margin-top: 50px;
+  margin-left: 0px;
+  margin-right: 0px;
+  min-height: 800px;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: orange;
+}
+
+.title {
+  width: 100%;
+  min-height: 50vh;
+  background-size: 600%;
+  animation: gradation 4s linear infinite;
+  color: white;
+}
+
+.title_label {
+  font-size: 100px;
+}
+
+.wrapper {
+  margin: 16px;
+}
+
+.container {
+  display: flex;
+  margin: 16px;
+}
+
+.footer {
+  width: 100%;
+  min-width: 500px;
+  text-align: center;
+  border-top: 1px solid rgba(192, 192, 192, 0.5);
+  background: #fefefe;
+  bottom: 0;
+  position: absolute;
+}
+
+.twitter_btn {
+  background: #1da1f2;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 32px;
+  text-decoration: none;
+
+  &:hover {
+    filter: brightness(110%);
+  }
+}
