@@ -1,8 +1,11 @@
+
+※ 現在、サービス公開に向けてデモページを停止しています。サービス公開後のソースコードは、このリポジトリ同じようにgithubで公開する予定です。
+
 # NIJINOWA
 
 NIJINOWA は、画像を投稿できるWebアプリです。
 
-[デモページ](https://nijinowa-ce2a2.web.app/)
+~[デモページ](https://nijinowa-ce2a2.web.app/)~ ( 現在は停止してます )
 
 # リポジトリの特徴
 
